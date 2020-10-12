@@ -1,0 +1,28 @@
+.season-display.winter i {
+    color: blue;
+    position: absolute;
+    top: 200px;
+    font-size: 10em;
+}
+
+.season-display.summer i {
+    color: red;
+    position: absolute;
+    top: 200px;
+    font-size: 10em;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.winter {
+    background-color: aliceblue;
+}
+
+.summer {
+    background-color: orange;
+}
